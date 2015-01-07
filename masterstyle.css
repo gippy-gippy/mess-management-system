@@ -1,0 +1,271 @@
+body{
+	background-image:url(bg.png);
+	font-family: 'Oleo Script', cursive;
+}
+
+#head h1
+{
+  font-family: 'Oleo Script', cursive;
+  text-align: center;
+	 margin: 0;
+	 padding: 0;
+	 margin: 0 auto;
+         font-size:40px;
+}
+
+/* remove codrops styles and reset the whole thing */
+#container_demo{
+	 text-align: left;
+	 margin: 0;
+	 padding: 0;
+	 margin: 0 auto;
+	 font-family: "Trebuchet MS","Myriad Pro",Arial,sans-serif;
+}
+#selectmess{
+    font-size:20px;
+    font-family: 'Oleo Script', cursive;
+}
+
+/** fonts used for the icons **/ 
+@font-face {
+    font-family: 'FontomasCustomRegular';
+    src: url('fonts/fontomas-webfont.eot');
+    src: url('fonts/fontomas-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/fontomas-webfont.woff') format('woff'),
+         url('fonts/fontomas-webfont.ttf') format('truetype'),
+         url('fonts/fontomas-webfont.svg#FontomasCustomRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FranchiseRegular';
+    src: url('fonts/franchise-bold-webfont.eot');
+    src: url('fonts/franchise-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/franchise-bold-webfont.woff') format('woff'),
+         url('fonts/franchise-bold-webfont.ttf') format('truetype'),
+         url('fonts/franchise-bold-webfont.svg#FranchiseRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+a.hiddenanchor{
+	display: none;
+}
+/** The wrapper that will contain our two forms **/
+#wrapper{
+	position: fixed;
+        top: 4%;
+        left: 30%;
+        width:500px;
+	margin:100px auto;
+	padding:20px 40px;
+	border:1px solid #f4f4f4;
+	background:#e5e5e5;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	
+	-webkit-box-shadow: 0 0 2px #aaa;
+	-moz-box-shadow: 0 0 2px #aaa;
+	box-shadow: 0 0 2px #aaa;
+}
+
+
+/**** Styling the form elements **/
+
+/**** general text styling ****/
+#warn1 h2{
+	font-size: 25px;
+	color:#800000;;
+	padding: 2px 0 10px 0;
+	font-family: 'Comic Sans MS','cursive',sans-serif;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+#warn2 h2{
+	font-size: 25px;
+	color: #800000;;
+	padding: 2px 0 10px 0;
+	font-family: 'Comic Sans MS','cursive',sans-serif;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+#warn0 h2{
+	font-size: 25px;
+	color: #800000;
+	padding: 2px 0 10px 0;
+	font-family: 'Comic Sans MS','cursive',sans-serif;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+#m h2
+{
+    font-size: 25px;
+    color: #ffa07a;
+	
+	font-family: 'Comic Sans MS','cursive',sans-serif;
+	font-weight: bold;
+	text-align: center;
+	
+}
+
+#wrap h3
+{
+font-size: 25px;
+    color: #808000;
+	
+	font-family: 'Comic Sans MS','cursive',sans-serif;
+	font-weight: bold;
+}
+#wrapper a{
+	color: rgb(95, 155, 198);
+	text-decoration: underline;
+}
+
+#wrapper h1{
+	font-size: 35px;
+	color: #ff4500;
+	padding: 2px 0 10px 0;
+	font-family: 'FranchiseRegular','Arial Narrow',Arial,sans-serif;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 30px;
+}
+/** For the moment only webkit supports the background-clip:text; */
+
+
+
+/** the actual animation, credit where due : http://daneden.me/animate/ ***/
+
+/** yerk some ugly IE fixes 'cause I know someone will ask "why does it look ugly in IE?", no matter how many warnings I will put in the article */
+
+#logincon{
+	width:450px;
+        height: 450px;
+	margin:45px auto;
+	padding:20px 20px;
+	border:1px solid #f4f4f4;
+	background:#E6E6E6;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	
+	-webkit-box-shadow: 0 0 2px #aaa;
+	-moz-box-shadow: 0 0 2px #aaa;
+	box-shadow: 0 0 2px #aaa;
+}
+
+#logincon h1
+{
+    font-size: 35px;
+	color: #0000a0;
+	padding: 2px 0 8px 0;
+        font-family: 'Oleo Script', cursive;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+#logincon h2
+{
+    font-size: 25px;
+	color: #db7093;
+	padding: 2px 0 8px 0;
+	font-family: "Trebuchet MS",Helvetica,sans-serif;
+	font-weight: bold;
+        padding-bottom: 15px;
+}
+
+#logincon h3
+{
+    
+	color: #fa8072;
+	padding: 2px 0 4px 0;
+	
+        padding-bottom: 2px;
+}
+.lg-container{
+	width:350px;
+	margin:45px auto;
+	padding:20px 20px;
+	border:1px solid #f4f4f4;
+	background:#e65d19;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	
+	-webkit-box-shadow: 0 0 2px #aaa;
+	-moz-box-shadow: 0 0 2px #aaa;
+	box-shadow: 0 0 2px #aaa;
+}
+.lg-container h1{
+        
+	color: #808000;
+	padding: 2px 0 10px 0;
+	font-family: 'Comic Sans MS','cursive',sans-serif;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 30px;
+	font-size:40px;
+	text-align:center;
+}
+#lg-form > div {
+	margin:10px 5px;
+	padding:5px 0;
+}
+#lg-form label{
+	display: none;
+	font-size: 20px;
+	line-height: 25px;
+}
+#lg-form input[type="text"],
+#lg-form input[type="password"]{
+	border:1px solid rgba(51,51,51,.5);
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	padding: 5px;
+	font-size: 16px;
+	line-height: 20px;
+	width: 100%;
+	font-family: 'Oleo Script', cursive;
+	text-align:center;
+}
+#lg-form div:nth-child(3) {
+	text-align:center;
+}
+#lg-form button{
+	font-family: 'Oleo Script', cursive;
+	font-size: 18px;
+	border:1px solid #000;
+	padding:5px 10px;
+	border:1px solid rgba(51,51,51,.5);
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	
+	-webkit-box-shadow: 2px 1px 1px #aaa;
+	-moz-box-shadow: 2px 1px 1px #aaa;
+	box-shadow: 2px 1px 1px #aaa;
+	cursor:pointer;
+}
+#lg-form button:active{
+	-webkit-box-shadow: 0px 0px 1px #aaa;
+	-moz-box-shadow: 0px 0px 1px #aaa;
+	box-shadow: 0px 0px 1px #aaa;
+}
+#lg-form button:hover{
+	background:#f4f4f4;
+}
+#message{width:100%;text-align:center}
+.success {
+	color: green;
+}
+.error {
+	color: red;
+}

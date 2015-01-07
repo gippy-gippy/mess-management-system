@@ -1,0 +1,153 @@
+
+* {
+  margin: 0; padding: 0;
+}
+
+#warning{
+    position: fixed;
+    top: 10%;
+    left: 25%;
+}
+#til h2{
+	font-size: 30px;
+	color: #0000ff;
+	padding: 2px 0 10px 0;
+	font-family: 'Comic Sans MS','cursive',sans-serif;
+	font-weight: bold;
+	text-align: center;
+	
+}
+#back{
+      text-decoration: none;
+      font-size:35px;
+      background-color: #FFFF99;
+      zoom: 1;
+      filter: alpha(opacity=50);
+      opacity: 0.4;
+      padding:5px 5px 5px 5px;
+    }
+    #back:hover{
+      opacity: 1.0;
+    }
+#til h3{
+	font-size: 24px;
+	color: #DC143C;
+	padding: 2px 0 10px 0;
+	font-family: 'Comic Sans MS','cursive',sans-serif;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+#feedbutton
+{
+    position: fixed;
+    top: 91%;
+    left: 45%;
+}
+#feed
+{
+
+padding: 10px 15px 11px ;
+font-size: 18px ;
+background-color: #fa8072;
+font-weight: bold;
+text-shadow: 1px 1px #F36C8C;
+color: #ffffff;
+border-radius: 100px;
+-moz-border-radius: 100px;
+-webkit-border-radius: 100px;
+border: 1px solid #F36C8C;
+cursor: pointer;
+box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+
+#til h1
+{
+        font-size: 35px;
+	color: #0000a0;
+	padding: 2px 0 10px 0;
+	font-family: 'Comic Sans MS','cursive',sans-serif;
+	font-weight: bold;
+}
+
+
+
+
+
+#wrapper
+{
+    position:fixed;
+    left: 25%;
+    top: 26%;
+    margin: 35px auto;
+    width: 500px;
+ 
+}
+
+h1 {
+  padding: 15px 20px;
+  font-family: Lobster;
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #ffa500;
+  text-align: center;
+  padding: 5px;
+  margin: 0px;
+    
+}
+
+h2.accordion{
+    padding: 0px;
+  margin: 0px 0px 5px 5px;
+  height: 46px;
+  line-height: 46px;
+  width: 700px;
+  
+  background-color: #333;
+  font-family: Lobster;
+  float: left;
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #1abc9c;
+  border-radius: 5px;
+  border: 1px solid #666;
+}
+h2.accordion a:hover {
+  color: #4afcdc;
+}
+
+h2.accordion a
+{
+     padding-left: 20px;
+  margin: 0px 0px 5px 5px;
+  
+  background-color: #333;
+  font-family: myriad pr0,helvetica,arial;
+  text-shadow: 0px -1px 1px #333;
+ 
+  font-weight: normal;
+  color: #f6f6f6;
+  border-radius: 5px;
+  
+}
+
+.accContainer
+{
+   padding:0px;
+  margin: 0px 0px 5px 5px;
+  overflow: hidden;
+  font-size: 1.3em;
+  color: #666;
+  width:700px;
+  clear: both;
+  background: #f6f6f6;
+  box-shadow: 0px 1px 3px #666;
+  
+}
+.accContainer.block
+{
+    padding: 20px;
+}

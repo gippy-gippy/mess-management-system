@@ -1,0 +1,124 @@
+body
+{
+  font: 40 10px/0.8 'Great Vibes', Helvetica, sans-serif;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+  
+	background:url("wine.jpg") no-repeat center fixed;
+	color:#000;
+}
+
+#main
+{
+	padding: 10px;
+	background-color: #ffffff;
+	border-radius: 20px 20px 10px 10px;
+}
+#mainnotice
+{
+	padding: 10px;
+	background-color: #DBFFB8;
+	border-radius: 20px 20px 10px 10px;
+}
+
+
+#main table{
+	font-family:"Calibri";
+	font-size: 16px;
+	color: #000000;
+}
+#anotice{
+	position: absolute;
+	top: 200px;
+	width: 400px;
+	padding: 30px;
+	margin-right: 10px;
+	background-color: #ffffff;
+	border-radius: 20px 20px 10px 10px;	
+}
+#cnotice{
+	position: absolute;
+	top: 160px;
+	left: 400px;
+	width: 400px;
+	margin-right: 10px;
+	padding: 30px;
+	background-color: #ffffff;
+	border-radius: 20px 20px 10px 10px;	
+}
+#gbnotice{
+	position: absolute;
+	top: 160px;
+	left: 870px;
+	width: 400;
+	padding: 30px;
+	background-color: #ffffff;
+	border-radius: 20px 20px 10px 10px;	
+}
+
+h1
+{
+	
+	text-align: center;
+	font-weight: bold;
+}
+ul#header
+{
+	padding: 0px;
+	position: relative;
+	margin: 0;
+}
+
+ul#header li
+{
+	display: inline;
+}
+
+ul#header li a
+{
+	padding: 10px 20px;
+	text-decoration: none;
+	line-height: 2.8em;
+	color: #034af3;
+	border-radius: 4px 4px 0 0;
+	background-color: #e8eef4;
+}
+
+ul#header li a:hover
+{
+	background-color: #AEC4D9;
+}
+
+#complain
+{
+	background-color: #FFFF99;
+	
+			margin-top:10px;
+			margin-bottom:10px;
+			padding:5px 5px 5px 5px;
+}
+
+#reply
+{
+	background-color: #C2E0FF;
+
+			margin-bottom:10px;
+			padding:5px 5px 5px 5px;
+}
+#sender
+{
+	padding:2px 2px 2px 2px;
+	background-color: #B8FF70;
+	border-radius: 8px 8px 0px 0px;
+}
+
+.transparent {
+	zoom: 1;
+	filter: alpha(opacity=50);
+	opacity: 0.7;
+}
+
+.transparent:hover {
+	zoom: 1;
+	filter: alpha(opacity=100);
+	opacity: 1.0;
+}

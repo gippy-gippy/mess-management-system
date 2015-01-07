@@ -1,0 +1,69 @@
+* {margin:0; padding:0; font:12px Verdana,Arial}
+code {font-family:"Courier New",Courier}
+body{
+    background: #87cefa;
+   -webkit-animation-name:myfirst;
+   -webkit-animation-duration: 35s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes myfirst
+{
+    0% {background: #87cefa;}
+5% {background: #00ffff;}
+10% {background: #00bfff;}
+15% {background: #1e90ff;}
+20% {background: #ffefd5;}
+25% {background: #ffdab9;}
+ 30% {background: #ff7f50;}
+35% {background: #d2691e;}
+40% {background: #b8860b;}
+45% {background: #f0e68c;}
+50% {background: #daa520;}
+55% {background: #ffd700;}   
+60% {background: #ffa07a; }
+70% {background: #fo8080; }
+80% {background: #40e0d0;}
+85% {background: #4682b4;}
+90% {background: #008080;} 
+100% {background: #87cefa;}
+}
+
+#op{width:457px; margin:20px auto; text-align:right; color:#9ac1c9; position: fixed; top: 1%; left: 26%;}
+#op h1{
+    font-size: 45px;
+	color: black;
+	padding: 2px 0 10px 0;
+	font-family: 'Comic Sans MS','cursive',sans-serif;
+	font-weight: bold;
+}
+#options {width:457px; margin:20px auto; text-align:right; color:#9ac1c9; position: fixed; top: 1%; left: 60%;}
+#options h2{  font-size: 35px;
+	color: black;
+	padding: 2px 0 10px 0;
+	font-family: 'Comic Sans MS','cursive',sans-serif;
+	font-weight: bold;}
+#options a {text-decoration:none; color:#9ac1c9}
+#options a:hover {color:#033}
+
+#acc {width:457px; list-style:none; color:#033; margin:0 auto 40px; position: fixed;top: 17%; left: 30%}
+#acc h3 {width:443px; border:1px solid #9ac1c9; padding:6px 6px 8px; font-weight:bold; margin-top:5px; cursor:pointer; background:url(images/header.gif)}
+#acc h3:hover {background:url(images/header_over.gif)}
+#acc .acc-section {overflow:hidden; background:#fff}
+#acc .acc-content {width:425px; padding:15px; border:1px solid #9ac1c9; border-top:none; background:#fff}
+
+#nested {width:425px; list-style:none; color:#033; margin-bottom:15px}
+#nested h3 {width:411px; border:1px solid #9ac1c9; padding:6px 6px 8px; font-weight:bold; margin-top:5px; cursor:pointer; background:url(images/header.gif)}
+#nested h3:hover {background:url(images/header_over.gif)}
+#nested .acc-section {overflow:hidden; background:#fff}
+#nested .acc-content {width:393px; padding:15px; border:1px solid #9ac1c9; border-top:none; background:#fff}
+#nested .acc-selected {background:url(images/header_over.gif)}
+
+#nested1 {width:425px; list-style:none; color:#033; margin-bottom:15px}
+#nested1 h3 {width:411px; border:1px solid #9ac1c9; padding:6px 6px 8px; font-weight:bold; margin-top:5px; cursor:pointer; background:url(images/header.gif)}
+#nested1 h3:hover {background:url(images/header_over.gif)}
+#nested1 .acc-section {overflow:hidden; background:#fff}
+#nested1 .acc-content {width:393px; padding:15px; border:1px solid #9ac1c9; border-top:none; background:#fff}
+#nested1 .acc-selected {background:url(images/header_over.gif)}
